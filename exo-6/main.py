@@ -12,13 +12,10 @@ import json
 with open('doc.json') as f:
     data = json.load(f)
 
-key = 0
-
-for el in data :
-    sourceFile = open('python.txt', 'a')
+sourceFile = open('python.txt', 'a')
+for key, el in enumerate(data) :
     print(data['members'][key]['name'], file = sourceFile)
-    sourceFile.close()
     print(data['members'][key]['name'])
-    key += 1
 
+sourceFile.close()
 
