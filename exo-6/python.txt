@@ -1,0 +1,17 @@
+{
+
+
+    "key1" : "Marcel",
+
+
+    "key2" : "Boris"
+
+
+}
+{
+
+    "key1" : "Marcel",
+
+    "key2" : "Boris"
+
+}
