@@ -4,3 +4,7 @@
 # argparse
 # pathlib
 # pprint
+
+pip install pipenv
+pipenv install requests
+python -m main
