@@ -1,0 +1,14 @@
+# requests
+# logging
+# queue
+# argparse
+# pathlib
+# pprint
+
+# sys fonctionne tel quel pas besoin de l'installer
+
+pip install pipenv
+pipenv install requests
+python -m main
+python -c "import main;print(main.name)"
+python -c 'import sys; print(sys.path);'
