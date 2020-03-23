@@ -3,3 +3,4 @@ a = datetime.now()
 b = datetime(2020, 1, 1)
 c = a - b
 print(c)
+print(type(c))
