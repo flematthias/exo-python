@@ -1,18 +1,15 @@
 class MyClass:
-    """[classe pour agrandir]
-    
-    Returns:
-        [type] -- [description]
+    """classe pour agrandir
     """
     @staticmethod
     def staticmethod(up):
-    """[methode pour agrandir]
+    """methode pour agrandir
         
         Arguments:
-            a {[string]} -- [le string en minuscule]
+            a {str} -- le string en minuscule
         
         Returns:
-            [string] -- [le resultat en capitale]
+            str -- le resultat en capitale
         """
         return up.upper()
 
