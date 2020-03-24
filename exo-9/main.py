@@ -1,7 +1,8 @@
 # Exception
 
+from requests import request
 try:
-    a = 12/0
+    r = request.__get__('https://github.com')
 except Exception as e:
     print(e)
 finally:
