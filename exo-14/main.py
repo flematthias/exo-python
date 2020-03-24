@@ -3,7 +3,7 @@ class MyClass:
     """
     @staticmethod
     def staticmethod(up):
-    """methode pour agrandir
+        """methode pour agrandir
         
         Arguments:
             a {str} -- le string en minuscule
