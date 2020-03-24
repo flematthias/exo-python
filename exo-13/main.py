@@ -10,9 +10,7 @@ class MyClass:
     @number.setter
     def number(self, a):
         print("setter")
-        b = a
-        self._loto = a
-        print("gagné !") if a == b else print("essaye encore", self)
+        return self._loto
 
 lancer = MyClass()
 print(lancer.number)
