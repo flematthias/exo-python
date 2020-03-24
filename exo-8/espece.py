@@ -1,4 +1,4 @@
-class Espece():
+class espece:
     _type = "dog"
 
     def giveName(self):

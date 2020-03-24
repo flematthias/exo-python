@@ -4,5 +4,4 @@ a = Animal()
 
 a.giveName()
 
-print(a._type())
-
+print(a.infos())

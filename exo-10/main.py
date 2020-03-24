@@ -10,4 +10,4 @@ def test():
     return "Hello"
 
 
-test()
+print(test())
