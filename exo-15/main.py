@@ -7,11 +7,9 @@ for i in mylist:
 def createGenerator():
     mylist = range(3)
     for i in mylist:
-        yield i*i
+        yield i
 
 mygenerator = createGenerator()
 
 for i in mygenerator:
     print(i)
-
-# par contre je ne comprends pas pourquoi on n'obtient pas le résultat
