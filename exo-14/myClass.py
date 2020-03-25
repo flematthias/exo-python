@@ -1,4 +1,4 @@
-class MyClass:
+class myClass:
     """classe pour agrandir
     """
     @staticmethod
@@ -14,4 +14,4 @@ class MyClass:
         return up.upper()
 
 
-print(MyClass.staticmethod('stringtoupper'))
+print(myClass.staticmethod('stringtoupper'))
