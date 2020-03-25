@@ -7,7 +7,7 @@ class MyClass:
 print(MyClass.staticmethod('stringtoupper'))
 
 def test_myclass():
-    MyClass.staticmethod('stringtoupper')
+    assert MyClass.staticmethod('stringtoupper')
 
 def test_bug():
-    return 1/0
+    assert 1/0
