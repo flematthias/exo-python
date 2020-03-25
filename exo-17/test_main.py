@@ -7,7 +7,12 @@ class MyClass:
 print(MyClass.staticmethod('stringtoupper'))
 
 def test_myclass():
-    assert MyClass.staticmethod('stringtoupper')
+    assert MyClass.staticmethod('stringtoupper') == 'STRINGTOUPPER'
+    assert MyClass.staticmethod('stringtoupper') == 'stringtoupper'
 
 def test_bug():
-    assert 1/0
+    try:
+        1/0
+    except Exception as e:
+        assert e
+    
